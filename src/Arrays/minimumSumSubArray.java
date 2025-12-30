@@ -19,7 +19,7 @@ public class minimumSumSubArray {
             curSum += arr[r];
             while (curSum >= target) {
                 minLength = Math.min(minLength, r - l + 1);
-//                if (r - l + 1 < minLength) {
+ //                if (r - l + 1 < minLength) {
 //                    minLength = r - l + 1;
 //                    x = l;
 //                    y = r;
